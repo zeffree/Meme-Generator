@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meme Generator!</h1>
+
+    <form action="#" class="form">
+        <label for="toptext">Insert Top Text</label>
+        <input type="text" name="toptext" id="toptext">
+        <br><br>
+        <label for="btmtext">Insert Bottom Text</label>
+        <input type="text" name="btmtext" id="btmtext">
+        <br><br>
+        <label for="imgurl">Insert Source Image</label>
+        <input type="url" name="imgurl" value="https://ftw.usatoday.com/wp-content/uploads/sites/90/2017/05/spongebob.jpg" id="imgurl">
+        <br><br>
+        <input type="submit" value="Add New Meme">
+    </form>
+
+    <div id="memeoutput"></div>
+
+    <script src="meme.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.meme{
+    position:relative;
+  }
+  
+  .toptxt{
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+  
+  .btmtxt{
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+  }
+
+  .memeimg{
+    width: 600px;
+  }
